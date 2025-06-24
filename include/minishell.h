@@ -163,7 +163,7 @@ int		ft_unset(t_cmd *cmd, t_shell_data *shell_data);
 /*============================== exec_zoe ====================================*/
 int		is_builtin(char *cmd);
 
-void	do_builtin(t_shell_data *data, t_cmd *cmd);
+int	do_builtin(t_shell_data *data, t_cmd *cmd);
 
 int		execute_commands(t_shell_data *data);
 
